@@ -136,12 +136,13 @@ if st.button("Predict"):
     output = model.predict(inputs)
     st.success((f"Admission Probabilty : {output[0] * 100}"))
 
-    if output < 60 and output > 50:
+    if output[0] * 100 < 60 and output[0] * 100 > 50:
         st.info("There are moderate chances that you get admission in the college! 🙂.")
-    elif output >= 60 and output < 70:
+    elif output[0] * 100 >= 60 and output[0] * 100 < 70:
         st.info("There are high chances that you get admission in the college! 😀")
-    elif output < 50:
+    elif output[0] * 100 < 50:
         st.warning("There is no chances of your admission 😔!")
+
 
 
 
