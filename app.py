@@ -31,7 +31,6 @@ st.sidebar.markdown("- Entrance Exam")
 st.sidebar.markdown("- Entrance Score")
 st.sidebar.markdown("- Board Percentage")
 st.sidebar.markdown("- Extra_Curricular Score")
-st.sidebar.markdown("- Admission Probability")
 st.sidebar.markdown("---")
 
 st.sidebar.write("**Made By : Harshita Gupta**")
@@ -146,6 +145,7 @@ if st.button("Predict"):
         st.info("There are high chances that you get admission 😄")
     else:  # prob >= 70
         st.success("Very high chances of admission! 🎉")
+
 
 
 
