@@ -6,6 +6,7 @@
 - This project helps students estimate their admission chances using important parameters such as entrance score, board percentage, stream preference, and extracurricular performance.
 - The application is built using Machine Learning (Linear Regression) and deployed using Streamlit for an interactive user interface.
 
+
 ## Features :
 
 - Predict college admission probability
