@@ -147,11 +147,3 @@ if st.button("Predict"):
         st.success("Very high chances of admission! 🎉")
 
 
-
-
-
-
-
-
-
-
