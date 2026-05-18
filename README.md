@@ -1,4 +1,12 @@
-# College Admission Prediction System
+<h1 align="center">🎓 College Admission Predictor</h1>
+
+<p align="center"
+  Predict your chances of getting into your dream college using Machine Learning.
+</p>
+
+<p align="center">
+  <img src="https://medicaldialogues.in/h-upload/2024/08/28/750x450_249902-admission.webp" width="1000"/>
+</p>
 
 ## Project Overview :
 
@@ -54,11 +62,18 @@ The prediction is based on the following inputs:
 │
 ├── app.py
 ├── admission_prediction_model (1).pkl
+├── college-admission-prediction.ipynb  
 ├── requirements.txt
 ├── admission.jpg
 ├── college.webp
 └── README.md
 ```
+
+## Dataset:
+
+The dataset used in this project is the College Admission Dataset (India) available on Kaggle.
+
+**Dataset Link**: https://www.kaggle.com/datasets/kundanbedmutha/college-admission-dataset-india
 
 ## How It Works :
 
