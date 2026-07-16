@@ -8,6 +8,9 @@
   <img src="https://medicaldialogues.in/h-upload/2024/08/28/750x450_249902-admission.webp" width="1000"/>
 </p>
 
+
+
+
 ## Project Overview :
 
 - The College Admission Prediction System is a Machine Learning–based web application that predicts the probability of getting admission into a college based on student academic and personal details.
